@@ -1,0 +1,103 @@
+html {
+  box-sizing: border-box;
+  background: #eeeeee;
+  font-size: 20px;
+}
+
+body {
+  margin: 0;
+}
+
+.main-body {
+  max-width: 700px;
+  margin: 70px auto;
+  background-color: white;
+  padding: 40px;
+  text-align: justify;
+  box-shadow: 0 0 10px 5px rgba(0,0,0,0.05);
+}
+
+header {
+  text-align: center;
+  height: 50vh;
+  background-image: url(http://dogsrusgh.com/communities/3/000/002/012/823//images/12160086.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid white;
+}
+
+h1 {
+  color: #111;
+  font-size: 4.5vw;
+}
+
+nav {
+  background: #111;
+  top: 0;
+  width: 100%;
+  transition: all 0.5s;
+  position: relative;
+  z-index: 1;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+nav a {
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  border-bottom: 5px solid white;
+  padding-bottom: 5px;
+}
+
+li.hidden {
+  max-width:0;
+  overflow: hidden;
+  background: #b18bf3;
+  transition: all 0.5s;
+  font-weight: 600;
+}
+
+li.hidden a {
+  color:#111;
+}
+
+.fixed-nav nav{
+  position: fixed;
+  box-shadow: 0 0.5px rgba(0, 0, 0, 0.2);
+}
+
+.fixed-nav li.hidden {
+  max-width: 500px;
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    padding: 10px;
+}
+
+.purple {
+  color: #b18bf3;
+}
